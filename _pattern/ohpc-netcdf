@@ -1,0 +1,30 @@
+<pattern xmlns="http://novell.com/package/metadata/suse/pattern"
+ xmlns:rpm="http://linux.duke.edu/metadata/rpm">
+ <name>ohpc-netcdf</name>
+ <summary>ohpc-netcdf</summary>
+ <description>OpenHPC NetCDF library builds for various compiler/MPI combinations</description>
+ <uservisible/>
+ <category lang="en"></category>
+ <rpm:requires>
+   <rpm:entry name="netcdf-gnu-impi-ohpc"/>
+   <rpm:entry name="netcdf-gnu-mvapich2-ohpc"/>
+   <rpm:entry name="netcdf-gnu-openmpi-ohpc"/>
+   <rpm:entry name="netcdf-intel-impi-ohpc"/>
+   <rpm:entry name="netcdf-intel-mvapich2-ohpc"/>
+   <rpm:entry name="netcdf-intel-openmpi-ohpc"/>
+   <rpm:entry name="netcdf-cxx-gnu-impi-ohpc"/>
+   <rpm:entry name="netcdf-cxx-gnu-mvapich2-ohpc"/>
+   <rpm:entry name="netcdf-cxx-gnu-openmpi-ohpc"/>
+   <rpm:entry name="netcdf-cxx-intel-impi-ohpc"/>
+   <rpm:entry name="netcdf-cxx-intel-mvapich2-ohpc"/>
+   <rpm:entry name="netcdf-cxx-intel-openmpi-ohpc"/>
+   <rpm:entry name="netcdf-fortran-gnu-impi-ohpc"/>
+   <rpm:entry name="netcdf-fortran-gnu-mvapich2-ohpc"/>
+   <rpm:entry name="netcdf-fortran-gnu-openmpi-ohpc"/>
+   <rpm:entry name="netcdf-fortran-intel-impi-ohpc"/>
+   <rpm:entry name="netcdf-fortran-intel-mvapich2-ohpc"/>
+   <rpm:entry name="netcdf-fortran-intel-openmpi-ohpc"/>
+ </rpm:requires>
+</pattern>
+
+

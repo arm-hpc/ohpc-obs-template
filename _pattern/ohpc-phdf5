@@ -1,0 +1,19 @@
+<pattern xmlns="http://novell.com/package/metadata/suse/pattern"
+ xmlns:rpm="http://linux.duke.edu/metadata/rpm">
+ <name>ohpc-phdf5</name>
+ <summary>ohpc-phdf5</summary>
+ <description>OpenHPC HDF5 parallel library builds for various compiler/MPI combinations</description>
+ <uservisible/>
+ <category lang="en"></category>
+ <rpm:requires>
+   <rpm:entry name="phdf5-gnu-mvapich2-ohpc"/>
+   <rpm:entry name="phdf5-gnu-openmpi-ohpc"/>
+   <rpm:entry name="phdf5-gnu-impi-ohpc"/>
+   <rpm:entry name="phdf5-intel-mvapich2-ohpc"/>
+   <rpm:entry name="phdf5-intel-openmpi-ohpc"/>
+   <rpm:entry name="phdf5-intel-impi-ohpc"/>
+ </rpm:requires>
+</pattern>
+
+
+

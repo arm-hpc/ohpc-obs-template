@@ -1,0 +1,18 @@
+<pattern xmlns="http://novell.com/package/metadata/suse/pattern"
+ xmlns:rpm="http://linux.duke.edu/metadata/rpm">
+ <name>ohpc-trilinos</name>
+ <summary>ohpc-trilinos</summary>
+ <description>OpenHPC Trilinos library builds for various compiler/MPI combinations</description>
+ <uservisible/>
+ <category lang="en"></category>
+ <rpm:requires>
+   <rpm:entry name="trilinos-gnu-impi-ohpc"/>
+   <rpm:entry name="trilinos-gnu-mvapich2-ohpc"/>
+   <rpm:entry name="trilinos-gnu-openmpi-ohpc"/>
+   <rpm:entry name="trilinos-intel-impi-ohpc"/>
+   <rpm:entry name="trilinos-intel-mvapich2-ohpc"/>
+   <rpm:entry name="trilinos-intel-openmpi-ohpc"/>
+ </rpm:requires>
+</pattern>
+
+

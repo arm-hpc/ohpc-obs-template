@@ -1,0 +1,5 @@
+<aggregatelist>
+  <aggregate project="AGGREGATE_PROJECT:Dep:Lmod">
+    <package>lua-bit</package>
+  </aggregate>
+</aggregatelist>

@@ -1,0 +1,18 @@
+<pattern xmlns="http://novell.com/package/metadata/suse/pattern"
+ xmlns:rpm="http://linux.duke.edu/metadata/rpm">
+ <name>ohpc-hypre</name>
+ <summary>ohpc-hypre</summary>
+ <description>OpenHPC Hypre library builds for various compiler/MPI combinations</description>
+ <uservisible/>
+ <category lang="en"></category>
+ <rpm:requires>
+   <rpm:entry name="hypre-gnu-impi-ohpc"/>
+   <rpm:entry name="hypre-gnu-mvapich2-ohpc"/>
+   <rpm:entry name="hypre-gnu-openmpi-ohpc"/>
+   <rpm:entry name="hypre-intel-impi-ohpc"/>
+   <rpm:entry name="hypre-intel-mvapich2-ohpc"/>
+   <rpm:entry name="hypre-intel-openmpi-ohpc"/>
+ </rpm:requires>
+</pattern>
+
+

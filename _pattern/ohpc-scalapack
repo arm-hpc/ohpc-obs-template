@@ -1,0 +1,18 @@
+<pattern xmlns="http://novell.com/package/metadata/suse/pattern"
+ xmlns:rpm="http://linux.duke.edu/metadata/rpm">
+ <name>ohpc-scalapack</name>
+ <summary>ohpc-scalapack</summary>
+ <description>OpenHPC ScaLAPACK library builds for various compiler/MPI combinations</description>
+ <uservisible/>
+ <category lang="en"></category>
+ <rpm:requires>
+   <rpm:entry name="scalapack-gnu-impi-ohpc"/>
+   <rpm:entry name="scalapack-gnu-mvapich2-ohpc"/>
+   <rpm:entry name="scalapack-gnu-openmpi-ohpc"/>
+   <rpm:entry name="scalapack-intel-impi-ohpc"/>
+   <rpm:entry name="scalapack-intel-mvapich2-ohpc"/>
+   <rpm:entry name="scalapack-intel-openmpi-ohpc"/>
+ </rpm:requires>
+</pattern>
+
+

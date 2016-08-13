@@ -1,0 +1,14 @@
+<pattern xmlns="http://novell.com/package/metadata/suse/pattern"
+ xmlns:rpm="http://linux.duke.edu/metadata/rpm">
+ <name>ohpc-ocr</name>
+ <summary>ohpc-ocr</summary>
+ <description>Open Compute Runtime builds for various compiler combinations</description>
+ <uservisible/>
+ <category lang="en"></category>
+ <rpm:requires>
+   <rpm:entry name="ocr-gnu-ohpc"/>
+   <rpm:entry name="ocr-intel-ohpc"/>
+ </rpm:requires>
+</pattern>
+
+

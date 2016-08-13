@@ -1,0 +1,14 @@
+<pattern xmlns="http://novell.com/package/metadata/suse/pattern"
+ xmlns:rpm="http://linux.duke.edu/metadata/rpm">
+ <name>ohpc-metis</name>
+ <summary>ohpc-metis</summary>
+ <description>OpenHPC METIS library builds for various compiler combinations</description>
+ <uservisible/>
+ <category lang="en"></category>
+ <rpm:requires>
+   <rpm:entry name="metis-gnu-ohpc"/>
+   <rpm:entry name="metis-intel-ohpc"/>
+ </rpm:requires>
+</pattern>
+
+

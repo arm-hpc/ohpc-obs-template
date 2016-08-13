@@ -1,0 +1,14 @@
+<pattern xmlns="http://novell.com/package/metadata/suse/pattern"
+ xmlns:rpm="http://linux.duke.edu/metadata/rpm">
+ <name>ohpc-numpy</name>
+ <summary>ohpc-numpy</summary>
+ <description>OpenHPC Numpy python module builds for various compiler combinations</description>
+ <uservisible/>
+ <category lang="en"></category>
+ <rpm:requires>
+   <rpm:entry name="python-numpy-gnu-ohpc"/>
+   <rpm:entry name="python-numpy-intel-ohpc"/>
+ </rpm:requires>
+</pattern>
+
+

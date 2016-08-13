@@ -1,0 +1,18 @@
+<pattern xmlns="http://novell.com/package/metadata/suse/pattern"
+ xmlns:rpm="http://linux.duke.edu/metadata/rpm">
+ <name>ohpc-boost</name>
+ <summary>ohpc-boost</summary>
+ <description>OpenHPC Boost library builds for various compiler/MPI combinations</description>
+ <uservisible/>
+ <category lang="en"></category>
+ <rpm:requires>
+   <rpm:entry name="boost-gnu-impi-ohpc"/>
+   <rpm:entry name="boost-gnu-mvapich2-ohpc"/>
+   <rpm:entry name="boost-gnu-openmpi-ohpc"/>
+   <rpm:entry name="boost-intel-impi-ohpc"/>
+   <rpm:entry name="boost-intel-mvapich2-ohpc"/>
+   <rpm:entry name="boost-intel-openmpi-ohpc"/>
+ </rpm:requires>
+</pattern>
+
+

@@ -1,0 +1,18 @@
+<pattern xmlns="http://novell.com/package/metadata/suse/pattern"
+ xmlns:rpm="http://linux.duke.edu/metadata/rpm">
+ <name>ohpc-petsc</name>
+ <summary>ohpc-petsc</summary>
+ <description>OpenHPC PETSC library builds for various compiler/MPI combinations</description>
+ <uservisible/>
+ <category lang="en"></category>
+ <rpm:requires>
+   <rpm:entry name="petsc-gnu-impi-ohpc"/>
+   <rpm:entry name="petsc-gnu-mvapich2-ohpc"/>
+   <rpm:entry name="petsc-gnu-openmpi-ohpc"/>
+   <rpm:entry name="petsc-intel-impi-ohpc"/>
+   <rpm:entry name="petsc-intel-mvapich2-ohpc"/>
+   <rpm:entry name="petsc-intel-openmpi-ohpc"/>
+ </rpm:requires>
+</pattern>
+
+
